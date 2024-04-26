@@ -1,11 +1,12 @@
 body {
-    background-color: lightsteelblue;
     color: white;
-    margin: 10px 400px;
+    background-image: url("https://sotni.ru/wp-content/uploads/2023/08/minecraft-sheidery-1.17-1.webp");
+    background-size: 2280px;
 }
 
 .card {
     background-color: black;
+    margin: 2px;
     display: inline-block;
     color: white;
     width: 500px;
@@ -24,13 +25,13 @@ body {
 }
 
 .text {
-    background-color: darkslategray;
+    background-color: rgb(1, 56, 1);
     margin: 0px 10px 10px 10px;
     display: inline-block;
     color: lightblue;
     width: 445px;
     height: 90px;
-    border: 2px solid darkolivegreen;
+    border: 2px solid darkslategray;
     padding: 20px;
     border-radius: 20px;
     vertical-align: top;
@@ -38,7 +39,7 @@ body {
 }
 
 .save {
-    background-color: red;
+    background-color: rgb(3, 100, 3);
     color: white;
     font-size: 18px;
     padding: 10px 20px 10px 20px;
@@ -46,11 +47,39 @@ body {
     border: none;
     border-radius: 20px;
     margin-top: 8px;
-    border: 2px solid orange;
+    border: 2px solid darkgreen;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 .pageTitle {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: center;
+    width: 546px;
+}
+
+.Sectii {
+    text-align: center;
+}
+
+.Kirya {
+    height: 1127px;
+    width: 680px;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 68px;
+    z-index: -1;
+}
+
+.Aiguy {
+
+    height: 1127px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 68px;
+    z-index: -1;
 }
